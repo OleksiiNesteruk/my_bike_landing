@@ -4,6 +4,7 @@
   width: 24px;
   background-image: url("../images/icons/icon-burger-menu.svg");
   background-size: cover;
+  cursor: pointer;
 
   @include hover(transform, scale(1.2));
 

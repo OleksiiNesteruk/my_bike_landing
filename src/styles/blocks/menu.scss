@@ -33,6 +33,7 @@
     line-height: 27px;
     color: $menu-text-color;
     text-decoration: none;
+    cursor: pointer;
   }
 
   &-book-a-test-ride {
@@ -47,5 +48,6 @@
     letter-spacing: 2px;
     color: $menu-text-color;
     text-decoration: none;
+    cursor: pointer;
   }
 }
