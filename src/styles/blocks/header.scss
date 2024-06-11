@@ -3,9 +3,14 @@
   background-size: cover;
   background-position: right;
 
+  @include on-table {
+    background-position: center;
+  }
+
   @include on-desktop {
     background-image: url("../images/header-bg-desktop.png");
   }
+
   &__content {
     height: 100vh;
 
